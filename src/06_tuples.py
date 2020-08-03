@@ -13,6 +13,8 @@ data that does not need to be changed. Tuples enforce immutability
 automatically.
 """
 
+#These still need work
+
 # Example:
 
 import math
@@ -36,7 +38,12 @@ print("Distance is: {:.2f}".format(dist(a, b)))
 
 # YOUR CODE HERE
 
+def print_tuple(tu):
+    for a in tu:
+        print (a)
+
 t = (1, 2, 5, 7, 99)
+
 print_tuple(t)  # Prints 1 2 5 7 99, one per line
 
 # Declare a tuple of 1 element then print it
