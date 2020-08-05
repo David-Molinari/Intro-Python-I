@@ -10,7 +10,7 @@ https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files
 # Note: pay close attention to your current directory when trying to open "foo.txt"
 
 # YOUR CODE HERE
-file = open("src/foo.txt")
+file = open("foo.txt")
 print(file.read())
 
 file.close()
@@ -21,7 +21,7 @@ file.close()
 # sure that it contains what you expect it to contain
 
 # YOUR CODE HERE
-file = open('src/bar.txt')
+file = open('bar.txt')
 print(file.read())
 
 file.close()
